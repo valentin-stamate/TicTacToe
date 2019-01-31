@@ -18,31 +18,35 @@
 
 </head>
 <body>
-<button id="ai">Play With AI</button>
-<button id="human">Play With Human</button><p></p>
-<font><b>Player 1 : </b></font><input type="text" id="playerone"/>(X)<p></p>
-<font><b>Player 2 : </b></font><input type="text" id="playertwo"/>(O)<p></p>
-
-<div class="i">
-<div class="box i0 j0 x" id="0"></div>
-<div class="box i0 j1" id="1"></div>
-<div class="box i0 j2 y" id="2"></div>
-</div>
-
-<div class="i">
-<div class="box i1 j0" id="3"></div>
-<div class="box i1 j1 x y" id="4"></div>
-<div class="box i1 j2" id="5"></div>
-</div>
-
-<div class="i">
-<div class="box i2 j0 y" id="6"></div>
-<div class="box i2 j1" id="7"></div>
-<div class="box i2 j2 x" id="8"></div>
-</div>
-
-<b><font id="result"></font></b>
-<button id="reset">Reset</button>
+	<center>
+		<div class="game_board">
+		<button id="ai">Play With AI</button>
+		<button id="human">Play With Human</button><p></p>
+		<font><b>Player 1 : </b></font><input type="text" id="playerone"/>(X)<p></p>
+		<font><b>Player 2 : </b></font><input type="text" id="playertwo"/>(O)<p></p>
+		<div class="game_box">
+			<div class="i">
+			<div class="box i0 j0 x" id="0"></div>
+			<div class="box i0 j1" id="1"></div>
+			<div class="box i0 j2 y" id="2"></div>
+			</div>
+			
+			<div class="i">
+			<div class="box i1 j0" id="3"></div>
+			<div class="box i1 j1 x y" id="4"></div>
+			<div class="box i1 j2" id="5"></div>
+			</div>
+			
+			<div class="i">
+			<div class="box i2 j0 y" id="6"></div>
+			<div class="box i2 j1" id="7"></div>
+			<div class="box i2 j2 x" id="8"></div>
+			</div>
+		</div>
+		<b><font id="result" class="result"></font></b>
+		<button id="reset">Reset</button>
+		</div>
+	</center>
 
 </body>
 </html>

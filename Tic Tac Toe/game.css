@@ -1,3 +1,9 @@
+.game_box{
+	position: absolute;
+	left: 50%;
+    transform: translate(-50%);
+    top: 120px;
+}
 .box{
 	position:relative;
 	float:left;
@@ -21,4 +27,16 @@
 	width:auto;
 	height:75px;
 
+}
+#reset{
+	position:absolute;
+	top:360px;
+	left: 50%;
+    transform: translate(-50%);
+}
+.result{
+	position:absolute;
+	top:390px;
+	left: 50%;
+    transform: translate(-50%);
 }
